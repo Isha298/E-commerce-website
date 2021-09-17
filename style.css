@@ -1,0 +1,317 @@
+body{
+    font-family: 'Akaya Kanadaka', cursive;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    float: left;
+    padding: 12px;
+    margin: 8px; 
+}
+.logo_name{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:28px;
+    margin-top: 16px;
+    text-align: left;
+    color: hsl(16, 62%, 40%);
+    text-shadow: rgb(201, 241, 155);
+}
+.logo_img{
+    size: 100%;
+    max-width: fit-content;
+    float: left;
+    padding: 12px;
+}
+.row{
+    float: right;
+    font-size: 34px;
+    margin-right: 25%;
+    margin-top: 5%;
+}
+.quote_img{
+    margin-left: 80px;
+    margin-top: 5%;
+}
+.little{
+    font-size: 24px; 
+    top: 8%;
+    right:10%;
+}
+.testimonial{
+    font-size: 28px; 
+    text-align: center;
+    letter-spacing: 8px;
+    text-decoration: underline;
+    animation: text 3s 1;
+    animation-iteration-count: infinite;
+}
+.products{
+    display: flex;
+    margin: 30px;
+}
+.col{
+    transition: 0.3s;
+    flex: 25%;
+}
+.col:hover{
+    transform: translate(0, -10px);
+}
+.decor{
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 30px 0px; 
+    margin-top: 0px;
+}
+.footer{
+    padding-top: 30px;
+    background-color: black;
+    block-size: 80px;
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center; 
+}
+.copyright{
+    margin-bottom: 12px;
+    justify-content: center;
+}
+.checked{
+    color: orangered;
+}
+.copyright:hover{
+    color: wheat;
+}
+.fa_custom, .fa2_custom, .fa3_custom{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    float: left;
+    margin-left: 12px;
+    padding-top: 8px;
+    padding: 5px;
+}
+.fa_custom:hover{
+    color: rgb(44, 115, 221);
+}
+.fa2_custom:hover{
+    color: rgb(201, 73, 194);
+}
+.fa3_custom:hover{
+    color: rgb(93, 167, 78);
+}
+#search-bar{
+    border: 2px solid rgb(134, 98, 98);
+    right: 20%;
+    border-radius: 5px;
+    height: 20px;
+    width: 300px;
+    padding: 2px 5px 2px 4px;
+    outline: 0;
+    background-color: #fcf7f1e1;
+    margin-top: 30px;
+    position: fixed;
+    z-index: 1;
+}
+.button1{
+    padding-top:4px; 
+    padding-bottom: 3px;
+    position: fixed;
+    z-index: 1;
+    border: 2px solid rgb(134, 98, 98);
+    border-radius: 10px;
+    right: 18%;
+    top: 5.5%;
+}
+.nav-bar{
+    position: absolute;
+    right: 3%;
+    top:2%; 
+}
+.fa-heart{ 
+    padding: 15px;
+}
+.fa-heart:hover{
+    color: rgb(212, 31, 70);
+}
+.fa-shopping-cart:hover{
+    color: rgb(32, 198, 248);
+}
+.header{
+    block-size: 400px;
+}
+.header img{
+    max-width: 100%;
+    float: right;
+}
+.another{
+    background-color: orangered;
+    width:150px;
+    height: 30px;
+    color: white;
+    border-radius: 20px;
+    font-size: 16px;
+    padding-bottom: 8px;
+    animation: glowing 1300ms infinite;
+}
+.another:hover{
+   background-color: rgb(250, 219, 42);
+}
+.fa-user-circle{
+    text-decoration: none;
+}
+.fa-user-circle:hover{
+   color: rgb(238, 91, 38);
+}
+  @keyframes text{
+    0%{
+        color: black;  
+    }
+    30%{
+        letter-spacing: 20px;
+        }
+    85%{
+        letter-spacing: 8px;
+    }
+}
+@keyframes glowing {
+    0% {
+      background-color: orangered;
+      box-shadow: 0 0 3px rgb(236, 65, 13);
+    }
+    50% {
+      background-color: orangered;
+      box-shadow: 0 0 10px rgb(240, 218, 19);
+    }
+    100% {
+      background-color: orangered;
+      box-shadow: 0 0 10px rgb(235, 186, 27);
+    }
+  }
+  .unleash{
+    background: linear-gradient(110deg, #afd6ec 60%, #47aeeb 60%);
+  }
+  .form{
+      margin-top: 80px;
+      margin-left: 15%;
+      position: relative;
+      background-color: rgb(175, 200, 231);
+      width: 400px;
+      text-align: center;
+      font-weight: 700;
+      height:500px;
+      overflow: hidden;
+      box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+      0 0  0 2px rgb(213, 237, 243),
+      0.3em 0.3em 1em rgba(70, 65, 65, 0.959);
+  }
+  .login,.register{
+      font-family: 'Times New Roman', Times, serif;
+      background-color: orangered;
+      border-radius: 20px;
+      font-weight: 700;
+      height: 30px;
+      color: white;
+      margin-top: 35px;
+      margin-left: 18px;
+      cursor: pointer;
+      border: orangered;
+      width: 100%;
+      position: relative;
+  }
+  .login:hover{
+      background-color: rgb(226, 156, 25);
+  }
+  .form_1 span{
+      margin-top: 15px;
+      padding-top: 0 10px;
+      width: 190px;
+      cursor: pointer;
+      display: inline-block;
+  }
+  .form form{
+      max-width: 300px;
+      position: absolute;
+      padding: 0 20px;
+      top: 130px; 
+      transition: transform 1s;
+  }
+  form input{
+      width: 110%;
+      height: 30px;
+      margin: 10px 0;
+      padding: 0 10px;
+      border: 1px solid #ccc;
+  }
+  #logform{
+      left:-365px;
+  }
+  #regform{
+    left:26px;
+  }
+  #indicator{
+      width: 100px;
+      border: none;
+      border-radius: 25px;
+      background: rgb(223, 28, 28);
+      height: 4px;
+      margin-top: 8px;
+      transform: translateX(100px);
+      transition: transform 1s;
+  } 
+  #indicator:hover{
+      background-color:rgb(226, 156, 25) ;
+  }
+  .image-container{
+      margin-right: 40px;
+      float: right;
+      border-image: rgb(85, 80, 80);
+  }
+  .pwd{
+      font-size: 13px;
+      text-decoration: none;
+      color: black;
+      font-weight: 400;
+      margin-left: 34px;
+      font-family: 'Times New Roman', Times, serif;
+  }
+  .item img{
+    display: block;
+    height: auto;
+    max-width: 110%;
+    margin: auto;
+    width: 100%;
+    max-height: 450px;
+  }
+  h2{
+      text-align: center;
+      font-weight: 700;
+      text-decoration: underline;
+  }
+  .production{
+      flex:25%;
+      flex-wrap: wrap;
+      flex-direction: row;
+      padding: 20px;   
+  }
+  .pic{
+    transition: 0.3s;
+    cursor: pointer;
+    text-align: center;
+    margin: 15px;
+    font-weight: 600;
+    display:inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    width: 260px;
+    max-height: fit-content;
+    max-width: 100%;
+    border: 3px solid black;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  .pic:hover{
+    transform: translate(0, -10px);
+  }
+
+
+
+
